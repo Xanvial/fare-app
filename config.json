@@ -1,0 +1,19 @@
+{
+  "log": {
+    "log_level": 0,
+    "output_paths": [
+      "./fare-app.log"
+    ]
+  },
+  "fare": {
+    "min_data": 2,
+    "max_interval_sec": 600,
+    "base_fare": 400,
+    "base_fare_dist": 1000,
+    "limit_dist": 10000,
+    "under_limit_fare": 40,
+    "under_limit_fare_dist": 400,
+    "over_limit_fare": 40,
+    "over_limit_fare_dist": 350
+  }
+}
