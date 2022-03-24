@@ -15,6 +15,7 @@ This application support two optional flags
 - `-config`: json config file that will be used as application configuration.
   If this is empty, it will use default config specified in `./internal/model/config.go
 
+
 ### Console Mode
 In console mode, the app will wait for user input. Each data will be processed line by line,
 until reaching empty line, which triggers fare calculation.
